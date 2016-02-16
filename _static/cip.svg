@@ -1,0 +1,26 @@
+<svg width="260" height="160" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="162" width="262" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#fff" id="svg_1" height="51.000001" width="64.999998" y="23.110375" x="97.012976" stroke-width="1.5" fill="#000"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="56.9385" x="109.528601" stroke-width="0" stroke="#000000" fill="#ffffff">CIP</text>
+  <path stroke="#fff" id="svg_5" d="m79.700217,48.610381l-11.723491,-13.33327l7.720844,0l11.723491,13.33327l-11.723491,13.33326l-7.720844,0l11.723491,-13.33326z" stroke-width="1.5" fill="#000"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_6" y="56.942766" x="7.569474" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">2 3 4</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_8" y="124.040729" x="111.504223" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">z - x</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_9" y="106.126044" x="109.779248" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">x + y</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_11" y="142.490204" x="111.46134" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">z / x</text>
+  <path stroke="#fff" id="svg_13" d="m183.03298,48.610385l-11.72349,-13.33327l7.72084,0l11.72349,13.33327l-11.72349,13.33325l-7.72084,0l11.72349,-13.33325z" stroke-width="1.5" fill="#000"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_14" y="56.951444" x="197.012866" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">5 2 2</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="16" id="svg_15" y="74.609339" x="9.791685" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">x y z</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="28.257299" x="7.823827" stroke-width="0" stroke="#fff" fill="#000000">date de intrare</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="28.260678" x="178.041277" stroke-width="0" stroke="#fff" fill="#000000">date de ieșire</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_19" y="86.17732" x="107.192095" stroke-width="0" stroke="#fff" fill="#000000">comenzi</text>
+ </g>
+</svg>

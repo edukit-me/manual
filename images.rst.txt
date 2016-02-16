@@ -1,0 +1,7 @@
+.. |cip| image:: /_static/cip.svg
+.. |pc-to-microcontroller| image:: /_static/pc-to-microcontroller.gif
+.. |arduino-in-hand| image:: /_static/arduino_in_hand.jpg
+.. |s4a| image:: /_static/s4a.png
+.. |arduino-and-usb-cable| image:: /_static/arduino-and-usb-cable.png
+.. |arduino-connected-pc| image:: /_static/arduino-connected-pc.png
+.. |ide| image:: /_static/ide.png

@@ -17,7 +17,19 @@ Primul Program în IDE
 
     Acum toate textele sunt în limba Română.
 
-3. Găsiți și faceți click pe meniul
+3. Indicați modelul plăcii Arduino care e conectată la calculator.
+
+    Găsiți meniul **Instrumente > Placă** și alegeți modelul.
+
+|ide-menu-arduino-model|
+
+4. Indicați portul prin care e conectat Arduino.
+
+    Găsiți meniul **Instrumente > Port** și alegeți portul.
+
+|ide-menu-port|
+
+5. Găsiți și faceți click pe meniul
 
     **Fișier > Exemple > Basics > Blink**
 
@@ -25,32 +37,13 @@ Primul Program în IDE
 
 .. _ide-first-code-step-4:
 
-4. Apesați pe butonul **Încarcă** pentru a compila și a trimite programul pe Arduino.
+6. Apesați pe butonul **Încarcă** pentru a compila și a trimite programul pe Arduino.
 
 |ide-upload-blink|
 
-5. Priviți la Arduino să observați cum clipește led-ul.
+7. Priviți la Arduino să observați cum clipește led-ul.
 
 |arduino-blink|
-
-Probleme care pot apărea
-------------------------
-
-În caz că becul nu clipește, verificați dacă următoarele puncte sunt îndeplinite:
-
-1. Indicați modelul plăcii Arduino care e conectată la calculator.
-
-    Găsiți meniul **Instrumente > Placă** și alegeți modelul.
-
-|ide-menu-arduino-model|
-
-2. Indicați portul prin care e conectat Arduino.
-
-    Găsiți meniul **Instrumente > Port** și alegeți portul.
-
-|ide-menu-port|
-
-Repetați :ref:`pasul 4 de mai sus <ide-first-code-step-4>`.
 
 Inspectarea Programului
 -----------------------

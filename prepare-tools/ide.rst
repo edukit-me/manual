@@ -1,6 +1,10 @@
 Instalarea IDE
 ==============
 
+.. note::
+
+    Alegeți un instrument prin care o să creați programele: Scratch sau IDE. Nu este nevoie să le instalați pe ambele.
+
 IDE este un soft în care scieți codul programelor și îl compilați (redactor de text + compilator).
 
 .. note::
@@ -50,6 +54,16 @@ Instalarea pe Mac OS
 
 3. todo...
 
+Elementele IDE-ului
+-------------------
+
+|ide-structure|
+
+1. ...
+2. ...
+
+...
+
 .. include:: /images.rst.txt
 
 .. |download-windows| image:: _static/download-windows.png
@@ -57,3 +71,4 @@ Instalarea pe Mac OS
 .. |download-or-donate| image:: _static/download-or-donate.png
 .. |ubuntu-search-soft| image:: _static/ubuntu-search-soft.png
 .. |ubunt-software-center-install| image:: _static/ubunt-software-center-install.png
+.. |ide-structure| image:: _static/ide-structure.png

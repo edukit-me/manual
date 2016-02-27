@@ -52,5 +52,6 @@ prin care puteți crea programe doar din elemente grafice, fără a scrie cod.
 .. toctree::
     :hidden:
 
-    install/index
+    prepare-tools/index
+    first-program/index
     programming/index

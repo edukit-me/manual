@@ -1,4 +1,0 @@
-Instalarea Scratch
-==================
-
-...

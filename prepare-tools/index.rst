@@ -1,5 +1,5 @@
-Conectarea Arduino
-==================
+Pregătirea Instrumentelor
+=========================
 
 Să trecem direct la practică!
 
@@ -17,5 +17,5 @@ Puteți să îl deconectați oricînd fără griji, nu este nevoie de apesat pe 
 .. toctree::
     :hidden:
 
-    ide
     scratch
+    ide

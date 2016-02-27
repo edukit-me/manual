@@ -23,6 +23,8 @@ Primul Program în IDE
 
 |ide-menu-blink|
 
+.. _ide-first-code-step-4:
+
 4. Apesați pe butonul **Încarcă** pentru a compila și a trimite programul pe Arduino.
 
 |ide-upload-blink|
@@ -46,9 +48,9 @@ Probleme care pot apărea
 
     Găsiți meniul **Instrumente > Port** și alegeți portul.
 
-Repetați pasul 4 de mai sus.
-
 |ide-menu-port|
+
+Repetați :ref:`pasul 4 de mai sus <ide-first-code-step-4>`.
 
 Inspectarea Programului
 -----------------------
@@ -61,8 +63,8 @@ Mai jos este explicat programul: din ce este compus și ce face fiecare rând.
 .. warning::
 
     În explicație sunt folosiți termeni noi care cel mai probabil să nu îi cunoașteți,
-    nu e o problemă, pur și simplu citiți textul,
-    la moment scopul este să vă creați o viziune cam cum funcționează lucrurile,
+    nu e o problemă, pur și simplu citiți textul.
+    La moment scopul este să vă creați o viziune cum funcționează lucrurile,
     mai tîrziu absolut orice termen nou va fi explicat în detaliu.
 
 .. code-block:: cpp
@@ -91,9 +93,9 @@ Mai jos este explicat programul: din ce este compus și ce face fiecare rând.
 7. ``digitalWrite(13, LOW);`` înseamnă: trimite pinului 13 valoarea cea mai mică.
    Astfel led-ul nu va primi deloc curent electric și se va stinge.
 
-Sper că ați prins deja ideea cam cum se execută codul programelor.
+Sper că ați prins deja ideea cum se execută codul programelor.
 Dar pentru a scrie cod calitativ și a putea construi ceva interesant cu Arduino,
-este nevoi să cunoașteți mai bine bazele programării.
+este nevoie să cunoașteți mai bine bazele programării.
 
 .. |ide-icon| image:: _static/ide-icon.png
 .. |ide-menu-preferences| image:: _static/ide-menu-preferences.png

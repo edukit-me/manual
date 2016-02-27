@@ -6,6 +6,7 @@ Arduino are incorporat un led direct pe placă,
 tot ce trebuie să faceți este doar să conectați Arduino la calculator prin cablul USB.
 
 .. toctree::
+    :maxdepth: 1
 
     scratch
     ide

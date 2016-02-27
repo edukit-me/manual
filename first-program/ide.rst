@@ -53,7 +53,47 @@ Repetați pasul 4 de mai sus.
 Inspectarea Programului
 -----------------------
 
-...
+La început codul programului poate să vă pară complicat,
+mai ales dacă nu aveți deloc cunoștințe în domeniu.
+Nu vă faceți grji, peste cîteva pagini citirea și scrierea programelor vi se va da mult mai ușor.
+Mai jos este explicat programul: din ce este compus și ce face fiecare rând.
+
+.. warning::
+
+    În explicație sunt folosiți termeni noi care cel mai probabil să nu îi cunoașteți,
+    nu e o problemă, pur și simplu citiți textul,
+    la moment scopul este să vă creați o viziune cam cum funcționează lucrurile,
+    mai tîrziu absolut orice termen nou va fi explicat în detaliu.
+
+.. code-block:: cpp
+
+    void setup() {
+        pinMode(13, OUTPUT);
+    }
+
+    void loop() {
+        digitalWrite(13, HIGH);
+        delay(1000);
+        digitalWrite(13, LOW);
+        delay(1000);
+    }
+
+1. Toate programele pe Arduino sunt compuse din 2 funcții: ``setup()`` și ``loop()``.
+2. Funcția ``setup()`` se execută doar o singură dată
+   și scopul ei este de a seta niște parametri înainte de execuția programului.
+3. ``pinMode(13, OUTPUT);`` se traduce în română ca: setează pin-ul cu numărul 13 în mod de emitere.
+   Inițial toți pinii sunt în mod de citire. Led-ul de pe placa Arduino este mereu pe pinul 13.
+4. Funcția ``loop()`` se execută după ``setup()`` și se repetă la infinit
+   atîta timp cît Arduino e conectat la o sursă de curent electric.
+5. ``digitalWrite(13, HIGH);`` se traduce în română ca: trimite pinului 13 valoarea ce mai mare posibilă.
+   Asta înseamnă că led-ul va primi curent electric și va lumina.
+6. ``delay(1000);`` se traduce ca: oprește execuția programului pe 1 secundă (1000 milisecunde).
+7. ``digitalWrite(13, LOW);`` înseamnă: trimite pinului 13 valoarea cea mai mică.
+   Astfel led-ul nu va primi deloc curent electric și se va stinge.
+
+Sper că ați prins deja ideea cam cum se execută codul programelor.
+Dar pentru a scrie cod calitativ și a putea construi ceva interesant cu Arduino,
+este nevoi să cunoașteți mai bine bazele programării.
 
 .. |ide-icon| image:: _static/ide-icon.png
 .. |ide-menu-preferences| image:: _static/ide-menu-preferences.png

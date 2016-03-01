@@ -5,3 +5,7 @@
 .. |arduino-and-usb-cable| image:: /_static/arduino-and-usb-cable.png
 .. |arduino-connected-pc| image:: /_static/arduino-connected-pc.png
 .. |ide| image:: /_static/ide.png
+.. |arduino-uno-and-light-sensor| image:: /_static/arduino-uno-and-light-sensor.jpeg
+.. |ide-menu-serial-terminal| image:: /_static/ide-menu-serial-terminal.png
+.. |ide-menu-new-file| image:: /_static/ide-menu-new-file.png
+.. |ide-serial-monitor-light-sensor| image:: /_static/ide-serial-monitor-light-sensor.png

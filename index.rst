@@ -1,10 +1,15 @@
 Salutare, RoboCrafter!
 ######################
 
-Această carte este un ghid pentru începătorii în robotehnică.
-Ea te va ajuta să înțelegi ce este un microcontroler, ce este programarea și cum să programezi un microcontroler.
-Cu aceste cunoștințe poți să faci un bec să se aprindă cînd e întuneric în cameră, un semafor controlat printr-un buton,
-(un exemplu practic cu servomotorul), și multe altele.
+Acesta este un ghid pentru începătorii în robotehnică.
+Te va ajuta să înțelegi ce este un microcontroler, ce este programarea și cum să programezi un microcontroler.
+Cu aceste cunoștințe poți să faci un bec să se aprindă cînd e întuneric în cameră, un semafor,
+o mașină care merge singură și se ferește de obiecte, și multe altele.
+
+.. important::
+
+    Ghidul este conceput pentru a fi citit de la început pînă la capăt, pas cu pas.
+    Treptat se explică definiții noi, lucruri mai complicate și interesante.
 
 Ce este un microcontroler
 -------------------------

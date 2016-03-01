@@ -1,3 +1,5 @@
+.. _scratch:
+
 Instalarea Scratch
 ==================
 

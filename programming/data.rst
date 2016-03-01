@@ -9,7 +9,7 @@ Deci este esențial să cunoașteți cum să lucrați cu datele.
 În limbajele de programare cele mai simple date sunt numerele și textele.
 Numerele se reprezintă simplu ``123``, iar tot ce se află între ghilimele este text ``"Salut!"``.
 
-:ref:`Testați <test>` următorul cod:
+Testați următorul cod:
 
 .. code-block:: cpp
 

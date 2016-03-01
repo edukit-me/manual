@@ -35,7 +35,7 @@ Primul Program în IDE
 
 |ide-menu-blink|
 
-.. _ide-first-code-step-4:
+.. _ide-upload:
 
 6. Apesați pe butonul **Încarcă** pentru a compila și a trimite programul pe Arduino.
 

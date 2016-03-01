@@ -25,7 +25,7 @@ la fel ca diferența între limba română, rusă sau engleză: cuvintele sunt d
 .. toctree::
     :hidden:
 
-    testing
     cpp
+    testing
     data
     variables

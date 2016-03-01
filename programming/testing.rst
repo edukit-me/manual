@@ -70,6 +70,19 @@ Deschideți :ref:`Terminal serial <open-serial-terminal>`
 
 .. rubric:: Inspectarea programului
 
-...
+.. note::
+
+    Mai jos sunt cîțiva termeni noi care cel mai probabil nu îi cunoașteți.
+    Totul va fi explicat puți mai tîrziu, la moment nu este obligatoriu să înțelegeți tot codul,
+    pur și simplu citiți textul pentru a vă crea o viziune cum funcționează lucrurile.
+
+1. Programul este format din două părți: ``setup()`` (se execută o singură dată) și ``loop()`` (se repetă la infinit).
+2. ``Serial.begin(9600);`` pornește conexiunea cu **Terminal serial**.
+3. ``int intensitateaLuminii = analogRead(5);`` se traduce ca:
+   Citește valoarea de la senzorul conectat la pinul analog 5 *(marcat pe placă ca A5)*
+   și păstreaz-o în variabila sub numele ``intensitateaLuminii``.
+4. ``Serial.println(intensitateaLuminii);`` se traduce ca:
+   Trimite în terminal serial valoarea din variabila ``intensitateaLuminii``.
+5. ``delay(1000);`` înseamnă: Oprește execuția programului timp de o secundă (1000 milisecunde).
 
 .. include:: /images.rst.txt

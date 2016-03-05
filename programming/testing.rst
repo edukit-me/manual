@@ -53,13 +53,13 @@ Deschideți un fișier nou în IDE
 .. code-block:: cpp
 
     void setup() {
-      Serial.begin(9600);
+        Serial.begin(9600);
     }
 
     void loop() {
-      int intensitateaLuminii = analogRead(5);
-      Serial.println(intensitateaLuminii);
-      delay(1000);
+        int intensitateaLuminii = analogRead(5);
+        Serial.println(intensitateaLuminii);
+        delay(1000);
     }
 
 Încărcați programul în Arduino, apesând :ref:`butonul Încarcă <ide-upload>`.

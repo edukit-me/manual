@@ -7,10 +7,11 @@ Cît de tare să lumineze un led sau cît de rapid să se rotească un motor la 
 Deci este esențial să cunoașteți cum să lucrați cu datele.
 
 În limbajele de programare cele mai simple date sunt numerele și textele.
-Numerele se reprezintă simplu ``123``, iar tot ce se află între ghilimele este text ``"Salut!"``.
 
 Textele
 -------
+
+Tot ce se află între ghilimele duble este text ``"Salut!"``.
 
 Testați următorul cod:
 
@@ -47,7 +48,7 @@ Deschideți :ref:`Terminal serial <open-serial-terminal>` pentru a vedea textul 
 
 .. note::
 
-    Codul ``Serial.begin(9600);`` este obligatoriu pentru că ``Serial.println(...);`` să funcționeze.
+    Codul ``Serial.begin(9600);`` este obligatoriu pentru ca ``Serial.println(...);`` să funcționeze.
 
 Numerele
 --------
@@ -67,11 +68,27 @@ Testați următorul cod:
 
     void loop() {}
 
-În terminal serial ar trebuie să arate:
+În :ref:`Terminal serial <open-serial-terminal>` ar trebuie să fie afișate două numere:
 
 |ide-test-numbers|
 
 Cu numerele puteți face adunarea ``+``, scăderea ``-``, înmulțirea ``*``, împărțirea ``/`` și alte operații.
 
+.. code-block:: cpp
+
+    void setup() {
+        Serial.begin(9600);
+
+        Serial.println(6 + 2);
+        Serial.println(6 - 2);
+        Serial.println(6 * 2);
+        Serial.println(6 / 2);
+    }
+
+    void loop() {}
+
+|ide-test-number-operations|
+
 .. |ide-test-numbers| image:: _static/ide-test-numbers.png
 .. |ide-test-text| image:: _static/ide-test-text.png
+.. |ide-test-number-operations| image:: _static/ide-test-number-operations.png

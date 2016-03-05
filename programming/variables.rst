@@ -2,28 +2,38 @@ Variabilele
 ===========
 
 Datele pot fi scrise direct în cod, dar o metodă mai comodă este păstrarea lor în variabile.
-O variabilă este un text, o denumire, care obligatoriu trebuie să înceapă cu o literă.
+O variabilă este un nume care păstrează date.
+La fel ca în matematică sau fizică cînd înălțimea se notează ca litera ``h``,
+``Pi`` semnifică numărul ``3.14...``, etc.
 
-De exemplu, pentru a face un program care afișează următoarele 3 numere ale numărului 7, fără variabilă ar fi așa:
+De exemplu, pentru a afișa următoarele 3 numere mai mari decît numărul 7,
+fără variabilă programul arată așa:
 
 .. code-block:: cpp
 
-    cout << 7 + 1;
-    cout << " ";
-    cout << 7 + 2;
-    cout << " ";
-    cout << 7 + 3;
+    void setup() {
+        Serial.begin(9600);
 
-Acum schimbați programul să afișeze următoarele 3 numere ale numărului 9.
-O să observați că programul are un neajuns: trebuie să schimbați aceeași cifră în 3 locuri.
+        Serial.println(7 + 1);
+        Serial.println(7 + 2);
+        Serial.println(7 + 3);
+    }
+
+    void loop() {}
+
+Acum schimbați programul să afișeze următoarele 3 numere mai mari decît numărul 9.
+O să observați că programul are un neajuns:
+de fiecare dată o să trebuiască să schimbați aceeași cifră în 3 locuri.
 Soluția este să folosiți o variabilă.
 
 Variabila mai întîi trebuie definită, adică să îi explicați calculatorului cum se numește variabila
-și ce tip de date o să conțină. Tipurile de bază în C++ sunt:
+și ce tip de date o să conțină.
 
-* ``int`` - număr întreg (``1``, ``7``, ``1``)
-* ``float`` - număr rațional (``2``, ``3.1``, ``1.007``)
-* ``string`` - text
+Tipurile de bază în C++ sunt:
+
+* ``int`` - număr întreg: ``1``, ``7``, ``1``
+* ``float`` - număr rațional: ``2``, ``3.1``, ``1.007``
+* ``string`` - text: ``"Salutare!"``
 
 De exemplu:
 
@@ -33,37 +43,49 @@ De exemplu:
     float numar_rational = 3.6;
     string text = "Salut!";
 
-Deci un programul care afișează următoarele 3 numere ale numărului 9, folosind variabile, arată în felul următor:
+Deci programul care afișează următoarele 3 numere mai mari decît numărul 7,
+folosind variabile, arată în felul următor:
 
-.. code-block:: php
+.. code-block:: cpp
 
-    int x = 9;
+    void setup() {
+        Serial.begin(9600);
 
-    cout << x + 1;
-    cout << " ";
-    cout << x + 2;
-    cout << " ";
-    cout << x + 3;
+        int x = 7;
 
-Acum pentru a afla următoarele 3 numere ale altui număr, este nevoie de schimbat doar o cifră în cod.
+        Serial.println(x + 1);
+        Serial.println(x + 2);
+        Serial.println(x + 3);
+    }
 
-Valoarea variabilei poate fi schimbată, iar exemplul de mai sus poate fi scris altfel:
+    void loop() {}
 
-.. code-block:: php
+Acum pentru a afla următoarele 3 numere mai mari decît numărul 9,
+este nevoie de schimbat doar o variabilă: ``int x = 9;``.
 
-    int x = 9;
+Valoarea variabilei poate fi modificată oricînd, iar programul de mai sus poate fi scris altfel:
 
-    x = x + 1;
-    cout << x;
+.. code-block:: cpp
 
-    cout << " ";
+    void setup() {
+        Serial.begin(9600);
 
-    x = x + 1;
-    cout << x;
+        int x = 7;
 
-    cout << " ";
+        x = x + 1;
+        Serial.println(x);
 
-    x = x + 1;
-    cout << x;
+        x = x + 1;
+        Serial.println(x);
 
-Programul de mai sus poate fi îmbunătățit pentru că mult cod se repetă, continuați să citiți pentru a afla cum.
+        x = x + 1;
+        Serial.println(x);
+    }
+
+    void loop() {}
+
+**Exercițiu**: Modificați programul să arate următoarele 10 numere mai mari decît variabila ``x``.
+
+Observați că programul conține cod care se repetă.
+Acesta e un indiciu că programul poate fi îmbunătățit.
+Continuați să citiți pentru a afla cum să scrieți programul de mai sus mai compact.

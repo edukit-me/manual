@@ -29,3 +29,4 @@ la fel ca diferența între limba română, rusă sau engleză: cuvintele sunt d
     testing
     data
     variables
+    loops

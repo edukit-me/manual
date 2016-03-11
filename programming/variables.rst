@@ -44,7 +44,8 @@ De exemplu:
 
     int numar_intreg = 2;
     float numar_rational = 3.6;
-    string text = "Salut!";
+    string mesaj = "Salut!";
+    bool pamintul_se_roteste = true;
 
 Deci programul care afișează următoarele 3 numere mai mari decît numărul 7,
 folosind variabile, arată în felul următor:

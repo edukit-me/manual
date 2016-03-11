@@ -29,11 +29,14 @@ Soluția este să folosiți o variabilă.
 Variabila mai întîi trebuie definită, adică să îi explicați calculatorului cum se numește variabila
 și ce tip de date o să conțină.
 
+.. _cpp-base-types:
+
 Tipurile de bază în C++ sunt:
 
 * ``int`` - număr întreg: ``1``, ``7``, ``1``
 * ``float`` - număr rațional: ``2``, ``3.1``, ``1.007``
 * ``string`` - text: ``"Salutare!"``
+* ``bool`` - boolean. Poate avea doar două valori: ``true`` - Adevărat, ``false`` - Fals.
 
 De exemplu:
 
@@ -62,6 +65,8 @@ folosind variabile, arată în felul următor:
 
 Acum pentru a afla următoarele 3 numere mai mari decît numărul 9,
 este nevoie de schimbat doar o variabilă: ``int x = 9;``.
+
+.. _eg-next-numbers-not-optimized:
 
 Valoarea variabilei poate fi modificată oricînd, iar programul de mai sus poate fi scris altfel:
 

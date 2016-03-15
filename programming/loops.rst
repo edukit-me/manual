@@ -17,7 +17,8 @@ ambele au o condiție care decide dacă ciclul trebuie să continue să se repet
 while
 -----
 
-Din engleză ``while`` (se pronunță: *uail*) se traduce ca: atîta timp cît. Structura instrucțiunii ``while`` este:
+Din engleză ``while`` (se pronunță: *uail*) se traduce ca: atîta timp cît.
+Structura instrucțiunii ``while``:
 
 .. code-block:: text
 
@@ -61,4 +62,15 @@ execută instrucțiunile care se află între acolade ``{   }``.
 for
 ---
 
-...
+Instrucțiunea ``for``, pe lîngă condiție și blocul cu instrucțiuni, mai conține încă două componente:
+inițializarea (instrucțiune care se execută inainte de primul ciclu) și
+contor (instrucțiunea care se execută după fiecare ciclu).
+Structura instrucțiunii ``for``:
+
+.. code-block:: text
+
+    for (inițializare; condiție; contor) {
+        instrucțiuni...
+    }
+
+Codul de mai sus se traduce ca: ...

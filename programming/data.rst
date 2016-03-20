@@ -1,5 +1,5 @@
-Datele
-======
+Date
+====
 
 Toate dispozitivele conectate la Arduino trimit și primesc informație.
 De exemplu, de la senzorul de lumină primiți un număr care semnifică intensitatea luminii.

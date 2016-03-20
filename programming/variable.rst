@@ -1,5 +1,5 @@
-Variabilele
-===========
+Variabile
+=========
 
 Datele pot fi scrise direct în cod, dar o metodă mai comodă este păstrarea lor în variabile.
 O variabilă este un nume care păstrează date.

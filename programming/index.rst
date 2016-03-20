@@ -28,5 +28,6 @@ la fel ca diferența între limba română, rusă sau engleză: cuvintele sunt d
     cpp
     testing
     data
-    variables
-    loops
+    variable
+    loop
+    function

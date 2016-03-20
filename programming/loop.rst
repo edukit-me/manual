@@ -1,5 +1,5 @@
-Ciclurile
-=========
+Cicluri
+=======
 
 Ciclurile sunt niște grupuri de instrucțiuni (bucăți de cod)
 care se execută repetat atîtat timp cît o condiție este îndeplinită.

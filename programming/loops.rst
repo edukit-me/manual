@@ -28,7 +28,7 @@ Structura instrucțiunii ``while``:
 
 Codul de mai sus se traduce ca: Atîta timp cît condiția este satisfăcută
 (are valoarea :ref:`boolean <cpp-base-types>` ``true``)
-execută instrucțiunile care se află între acolade ``{   }``.
+execută instrucțiunile din acolade ``{   }``.
 
 :ref:`Exemplul precedent <eg-next-numbers-not-optimized>` poate fi scris mai compact:
 
@@ -73,4 +73,10 @@ Structura instrucțiunii ``for``:
         instrucțiuni...
     }
 
-Codul de mai sus se traduce ca: ...
+Codul de mai sus se traduce ca: Execută **inițializarea**.
+Atîta timp cît **condiția** este îndeplinită (are valoarea ``true``),
+execută **instrucțiunile** din acolade ``{   }`` și instrucțiuniea **contor**.
+
+|for-loop|
+
+.. |for-loop| image:: _static/for-loop.svg

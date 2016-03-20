@@ -41,6 +41,8 @@ execută instrucțiunile din acolade ``{   }``.
     Comentariile sunt folosite pentru a scrie notițe în codul programului
     ca să fie înțeles mai ușor de alți programatori.
 
+.. _eg-next-numbers-with-while:
+
 .. code-block:: cpp
 
     void setup() {
@@ -78,5 +80,34 @@ Atîta timp cît **condiția** este îndeplinită (are valoarea ``true``),
 execută **instrucțiunile** din acolade ``{   }`` și instrucțiuniea **contor**.
 
 |for-loop|
+
+:ref:`Exemplul precedent <eg-next-numbers-with-while>` poate fi scris cu ``for``:
+
+.. _eg-next-numbers-with-for:
+
+.. code-block:: cpp
+
+    void setup() {
+        Serial.begin(9600);
+
+        int x = 7;
+
+        for (int i = 0; i < 3; ++i) {
+            ++x;
+            Serial.println(x);
+        }
+    }
+
+    void loop() {}
+
+.. note::
+
+    ``++i`` este varianta prescurtată a ``i = i + 1``.
+    La fel poate fi scris ``--i`` care înseamnă ``i = i - 1``.
+
+Codul de mai sus se traduce așa: Creză variabila ``x`` și atribuie-i valoarea ``7``;
+Crează variabila ``i`` și atribuie-i valoare ``0``;
+Atîta timp cît valoarea din ``i`` este mai mică decît ``3``,
+mărește valoarea din ``x`` cu ``1``, afișeaz-o în terminal serial și mărește valoarea din ``i`` cu ``1``.
 
 .. |for-loop| image:: _static/for-loop.svg

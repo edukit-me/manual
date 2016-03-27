@@ -3,9 +3,10 @@ Funcții
 
 Funcțiile sunt grupuri de întrucțiuni (bucăți de cod)
 care primesc niște variabile sub formă de parametri și returnează un rezultat (niște date).
-Acestea vă ajută să nu repetați codul să îl scrieți mai compact și mai organizat.
+Acestea vă ajută să nu repetați codul, să îl scrieți mai compact și mai organizat.
 
-De exemplu, pentru a face led-ul să clipească la interval de o secundă de 2, 3 apoi de 7 ori,
+De exemplu, pentru a face led-ul de pe placa Arduino
+să clipească la interval de o secundă de 2 apoi de 3 ori,
 fără funcții programul este următorul:
 
 .. code-block:: cpp
@@ -18,27 +19,28 @@ fără funcții programul este următorul:
         // cînd o să înceapă să clipească
         delay(5000);
         digitalWrite(13, LOW);
+        delay(1000);
 
         digitalWrite(13, HIGH);
-        delay(100);
+        delay(200);
         digitalWrite(13, LOW);
-        delay(100);
+        delay(200);
         digitalWrite(13, HIGH);
-        delay(100);
+        delay(200);
         digitalWrite(13, LOW);
 
         delay(1000);
 
         digitalWrite(13, HIGH);
-        delay(100);
+        delay(200);
         digitalWrite(13, LOW);
-        delay(100);
+        delay(200);
         digitalWrite(13, HIGH);
-        delay(100);
+        delay(200);
         digitalWrite(13, LOW);
-        delay(100);
+        delay(200);
         digitalWrite(13, HIGH);
-        delay(100);
+        delay(200);
         digitalWrite(13, LOW);
     }
 
@@ -68,9 +70,9 @@ Mai jos este același program dar îmbunătățit cu ajutorul intrucțiunii ``fo
             ++clipiri_efectuate
         ) {
             digitalWrite(13, HIGH);
-            delay(100);
+            delay(200);
             digitalWrite(13, LOW);
-            delay(100);
+            delay(200);
         }
 
         delay(1000);
@@ -84,6 +86,7 @@ Mai jos este același program dar îmbunătățit cu ajutorul intrucțiunii ``fo
         // cînd o să înceapă să clipească
         delay(5000);
         digitalWrite(13, LOW);
+        delay(1000);
 
         clipire(2);
         clipire(3);
@@ -104,18 +107,18 @@ Mai jos este același program dar îmbunătățit cu ajutorul intrucțiunii ``fo
 
 Funcția ``clipire`` se traduce ca: Crează variabila ``clipiri_efectuate`` de tip ``int`` *(număr întreg)*
 și setează-i valoarea ``0``. Atîta timp cît numărul de clipiri efectuate este mai mic decît
-numărul de clipiri care trebuiesc făcute, aprinde led-ul, așteată ``100`` milisecunde,
-stinge led-ul, așteaptă ``100`` milisecunde, și mărește numărul de clipiri efectuate cu ``1``.
+numărul de clipiri care trebuiesc făcute, aprinde led-ul, așteată ``200`` milisecunde,
+stinge led-ul, așteaptă ``200`` milisecunde, și mărește numărul de clipiri efectuate cu ``1``.
 Apoi așteaptă o secundă.
 
 Acum puteți ușor schimba programul să clipească de cîte ori doriți, modificînd foarte puțin cod.
 
 Funcția ``clipire`` poate fi schimbată să accepte un al doilea parametru: **durata clipirii**
-(la moment aceasta este ``100`` milisecunde). Înlocuiți funcția cu:
+(la moment aceasta este ``200`` milisecunde). Înlocuiți funcția cu:
 
 .. code-block:: cpp
 
-    void clipire(int numarul_de_clipiri, int durata_clipirii = 100) {
+    void clipire(int numarul_de_clipiri, int durata_clipirii = 200) {
         for (
             int clipiri_efectuate = 0;
             clipiri_efectuate < numarul_de_clipiri;
@@ -132,8 +135,8 @@ Funcția ``clipire`` poate fi schimbată să accepte un al doilea parametru: **d
 
 .. note::
 
-    La al doilea parametru ``= 100`` înseamnă ca parametrul este opțional
-    și dacă nu va fi indicat atunci va primi valoarea implicită ``100``.
+    ``= 100`` de la al doilea parametru înseamnă ca acesta este opțional
+    și dacă nu va fi indicat, atunci va primi valoarea implicită ``100``.
 
 Modificați programul și apelați funcția cu diferiți parametri:
 
@@ -142,3 +145,17 @@ Modificați programul și apelați funcția cu diferiți parametri:
     clipire(2);
     clipire(3, 500);
     clipire(7, 30);
+
+Funcția loop()
+--------------
+
+Spre deosebire de funcția ``setup()`` care se execută o singură data,
+funcția ``loop()`` se execută la infinit.
+În exemplele precedente ați scris programele în funcția ``setup()``
+pentru ca ele să se execute o singură dată și să fie mai ușor de înțeles cum acestea funcționează.
+De obicei toată logica programelor pe Ardiuno se scrie în funcția ``loop()``
+pentru că Arduino trebuie permanent să primească informație de la senzori și să o prelucreze,
+de exemplu: o seră trebuie închisă noaptea și deschisă dimineața, sau
+o mașină cu autopilot trebuie să se ferească de obstacole.
+
+(todo: exemplu cu senzor de lumina si clipire)

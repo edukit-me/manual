@@ -150,7 +150,7 @@ Funcția loop()
 --------------
 
 Spre deosebire de funcția ``setup()`` care se execută o singură data,
-funcția ``loop()`` se execută la infinit.
+funcția ``loop()`` se repeată la infinit.
 În exemplele precedente ați scris programele în funcția ``setup()``
 pentru ca ele să se execute o singură dată și să fie mai ușor de înțeles cum acestea funcționează.
 De obicei toată logica programelor pe Ardiuno se scrie în funcția ``loop()``

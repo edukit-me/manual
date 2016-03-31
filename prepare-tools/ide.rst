@@ -59,10 +59,17 @@ Elementele IDE-ului
 
 |ide-structure|
 
-1. ...
-2. ...
-
-...
+1. **Verificare**: Compilează și aprobă codul. Va găsi erorile de sintaxă (ca punct și virgulă omise sau paranteze).
+2. **Încărcare**: Trimite programul la placa Arduino. Cînd faceți click pe acesta, ar trebui să vedeți cum led-urile de pe placă clipesc rapid.
+3. **Program Nou**: Acest buton deschide o fereastră nouă.
+4. **Deschidere Program**: Acest buton vă permite să deschideți un sketch (program) existent.
+5. **Salvare**: Acest buton salvează programul curent.
+6. **Serial Monitor**: Acesta va deschide o fereastră nouă care arată orice informație transmisă de placă prin canalul serial.
+7. **Nume Sketch**: Acesta arătă numele programului la care lucrați la moment.
+8. **Codul**: Aceasta este zonă în care scrieți codul programului.
+9. **Mesaje**: Aici IDE-ul vă arată dacă sunt erori în program.
+10. **Consola Text**: Aici sunt afișate mesajele de eroare complete.
+11. **Placa și Serial Port**: Arată ce placă și ce port sunt setate.
 
 .. include:: /images.rst.txt
 

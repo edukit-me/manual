@@ -45,6 +45,29 @@ Primul Program în IDE
 
 |arduino-blink|
 
+.. note::
+
+    Pe sistemul de operare Linux/Ubuntu poate apărea următoarea eroare:
+
+    .. code-block:: text
+
+        avrdude: ser_open(): can't open device "/dev/ttyUSB0": Permission denied
+
+    pentru a o rezolva, deschideți consola de sistem (în engleză se numește Terminal),
+    o puteți găsi în meniul principal sau încercați să apesați pe combinația de taste Ctrl+Alt+T.
+    Scrieți în consolă următoarele două comenzi:
+
+    .. code-block:: sh
+
+        sudo usermod -a -G dialout `whoami`
+
+    Dacă în eroare nu e textul ``/dev/ttyUSB0`` dar ``/dev/ttyUSB1`` sau orice alt ``/dev/tty...``,
+    înlocuiți în comanda de mai jos textul să fie la fel ca în eroare.
+
+    .. code-block:: sh
+
+        sudo chmod a+rw /dev/ttyUSB0
+
 Inspectarea Programului
 -----------------------
 

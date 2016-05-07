@@ -5,7 +5,7 @@ import sphinx_rtd_theme
 
 # Project
 project = 'EduKit.me'
-copyright = `date.today().year` + ' EduKit.me'
+copyright = `date.today().year` + ' EduKit.me | <a href="ma&#105;lto&#58;%68i&#64;&#101;d&#117;kit&#46;me">hi&#64;&#101;dukit&#46;me</a>'
 
 # Theme
 html_theme = "sphinx_rtd_theme"

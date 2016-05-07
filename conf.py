@@ -5,7 +5,6 @@ import sphinx_rtd_theme
 
 # Project
 project = 'EduKit.me'
-html_show_copyright = False
 copyright = '2015-' + `date.today().year` + ' EduKit.me | Contact hi@edukit.me'
 
 # Theme

@@ -18,7 +18,7 @@ IDE este un soft în care scieți codul programelor și îl compilați (redactor
 Instalarea pe Windows
 ---------------------
 
-1. Pentru a descărca IDE-ul, intrați pe `arduino.cc <https://www.arduino.cc/en/Main/Software#pagetext>`__
+1. Pentru a descărca IDE-ul, intrați pe site-ul `arduino.cc <https://www.arduino.cc/en/Main/Software#pagetext>`__
 și alegeți din listă sistemul de operare Windows.
 
 |download-windows|
@@ -43,7 +43,7 @@ Instalarea pe Ubuntu/Linux
 Instalarea pe Mac OS
 --------------------
 
-1. Pentru a descărca IDE-ul, intrați pe `arduino.cc <https://www.arduino.cc/en/Main/Software#pagetext>`__
+1. Pentru a descărca IDE-ul, intrați pe site-ul `arduino.cc <https://www.arduino.cc/en/Main/Software#pagetext>`__
 și alegeți din listă sistemul de operare Mac OS.
 
 |download-mac|

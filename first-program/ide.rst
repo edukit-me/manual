@@ -47,6 +47,10 @@ Primul Program în IDE
 
 .. note::
 
+    Led-ul poate fi de altă culoare (nu ca în imagine). Led-ul este marcat cu litera ``L``.
+
+.. note::
+
     Pe sistemul de operare Linux/Ubuntu poate apărea următoarea eroare:
 
     .. code-block:: text

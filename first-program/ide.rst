@@ -51,7 +51,7 @@ Primul Program în IDE
 
 .. note::
 
-    Pe sistemul de operare Linux/Ubuntu poate apărea următoarea eroare:
+    Dacă sunteți pe sistemul de operare Linux/Ubuntu și vă apare următoarea eroare:
 
     .. code-block:: text
 

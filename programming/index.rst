@@ -1,11 +1,6 @@
 Bazele Programării
 ==================
 
-.. important::
-
-    Dacă ați decis să creați programe cu ajutorul softului :ref:`Scratch <scratch>`,
-    ignorați acest capitol și treceți la următorul.
-
 Programarea este explicarea microcontrolerului cum să citească informația, ce să facă cu ea și unde să o trimită,
 adică cum să o proceseze.
 

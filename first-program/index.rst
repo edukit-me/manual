@@ -8,6 +8,5 @@ tot ce trebuie să faceți este doar să conectați Arduino la calculator prin c
 .. toctree::
     :maxdepth: 1
 
-    scratch
     ide
 

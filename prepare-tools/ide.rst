@@ -1,10 +1,6 @@
 Instalarea IDE
 ==============
 
-.. note::
-
-    Alegeți un instrument prin care o să creați programele: Scratch sau IDE. Nu este nevoie să le instalați pe ambele.
-
 IDE este un soft în care scieți codul programelor și îl compilați (redactor de text + compilator).
 
 .. note::

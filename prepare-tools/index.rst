@@ -17,5 +17,4 @@ Puteți să îl deconectați oricînd fără griji, nu este nevoie de apăsat pe
 .. toctree::
     :hidden:
 
-    scratch
     ide
